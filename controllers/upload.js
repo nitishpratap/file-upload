@@ -17,7 +17,7 @@ const upload = {
             const data = await helper.status(req);
             respond(res,data);
         }catch(err){
-            console.log("error :::::::",err);
+            console.log("error :::",err);
             errorHandler('500',req);
         }
     }
